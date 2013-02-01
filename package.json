@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-ok-for-storage",
+  "description": "Helper for storing objects in MongoDB",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/discore/mongodb-ok-for-storage.git"
+  },
+  "bugs": {
+    "mail": "me@jongleberry.com",
+    "url": "https://github.com/discore/mongodb-ok-for-storage/issues"
+  }
+}
