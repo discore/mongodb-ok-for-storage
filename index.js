@@ -1,11 +1,11 @@
 exports.is = function isOk(obj) {
-  return !Object.keys(obj).some(function (key) {
+  return Object.keys(obj).every(function (key) {
     var value = obj[key]
 
-    if (key[0] === '$' || key.match(/\./)) return true;
-    if (Object(value) === value) return !isOk(value);
+    if (key[0] === '$' || key.match(/\./)) return false;
+    if (Object(value) === value) return isOk(value);
 
-    return false
+    return true
   })
 }
 
