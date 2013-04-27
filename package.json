@@ -4,8 +4,11 @@
   "version": "0.0.1",
   "author": {
     "name": "Jonathan Ong",
-    "email": "me@jongleberry.com"
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
   },
+  "license": "WTFPL",
   "repository": {
     "type": "git",
     "url": "https://github.com/discore/mongodb-ok-for-storage.git"
