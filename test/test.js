@@ -1,6 +1,6 @@
 var assert = require('assert')
 
-var okForStorage = require('./')
+var okForStorage = require('..')
 
 assert.ok(!okForStorage.is({
   'a.b': 1
